@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a43c9f49-a377-412b-811b-0eb5564396eb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 58.42 57.785) (size 35.56 36.195) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1c0c159e-3a04-4b91-a60a-e0a2b5043c77)
+    (property "Sheetname" "MCU" (at 58.42 57.0734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 58.42 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "node_v0.1"
+        (path "/a43c9f49-a377-412b-811b-0eb5564396eb" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 111.125 57.785) (size 37.465 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b751dc90-8b9a-46de-9ff1-5a8c844c6f22)
+    (property "Sheetname" "Lora" (at 111.125 57.0734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Lora.kicad_sch" (at 111.125 93.9296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "node_v0.1"
+        (path "/a43c9f49-a377-412b-811b-0eb5564396eb" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
